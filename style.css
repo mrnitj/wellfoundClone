@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Graphik, Helvetica Neue, arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+header {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+}
+.top {
+  padding-left: 3rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+.logo img {
+  height: 30px;
+}
+.logo img:hover {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+}
+.links li {
+  list-style: none;
+}
+.links li a {
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #050c26;
+  transition: color 0.15s, text-decoration 0.15s;
+}
+.links li a:hover {
+  color: #143fcd;
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 10px;
+}
+.header-right {
+  display: flex;
+}
+.header-buttons {
+  display: flex;
+}
+
+.header-buttons button {
+  border-radius: 3px;
+  margin-right: 1rem;
+  transition: background-color 0.15s, color 0.15s;
+  font-weight: bolder;
+}
+.header-buttons button:hover {
+  cursor: pointer;
+}
+.login button {
+  height: 38px;
+  width: 75px;
+  background-color: rgb(255, 255, 255);
+  color: #050c26;
+  font-weight: bold;
+  border-width: thin;
+  border-style: solid;
+}
+.login button:hover {
+  
+  color: #143fcd;
+  background-color: rgba(20, 63, 204, 0.1);
+  border-color: #143fcd;
+}
+.signup button {
+  background-color: #050c26;
+  color: aliceblue;
+  font-weight: bold;
+  border: none;
+  height: 38px;
+  width: 85px;
+}
+.signup button:hover {
+  background-color: #143fcd;
+}
+
+/* first box */
+.first-box {
+  margin-top: 80px;
+  display: flex;
+  height: 600px;
+
+  width: 100%;
+}
+.first-box-left {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 50%;
+}
+.first-box-left .heading {
+  font-size: 27px;
+  margin-bottom: 40px;
+  max-width: 65%;
+  line-height: 1.2;
+  color: #050c26;
+}
+.first-box-left .paragraph {
+  font-size: 20px;
+  width: 100%;
+  max-width: 65%;
+  color: #050c26;
+}
+.first-box-right {
+  width: 50%;
+}
+
+.first-box-right img {
+  height: 600px;
+  width: 100%;
+}
